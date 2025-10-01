@@ -1,0 +1,24 @@
+// FIX: Created a barrel file to export all icon components, resolving module errors.
+export { default as BeautyIcon } from './BeautyIcon';
+export { default as BookOpenIcon } from './BookOpenIcon';
+export { default as CalendarIcon } from './CalendarIcon';
+export { default as CareerIcon } from './CareerIcon';
+export { default as CheckIcon } from './CheckIcon';
+export { default as ClipboardListIcon } from './ClipboardListIcon';
+export { default as FamilyIcon } from './FamilyIcon';
+export { default as FriendsIcon } from './FriendsIcon';
+export { default as HealthIcon } from './HealthIcon';
+export { default as HeartNotebookIcon } from './HeartNotebookIcon';
+export { default as MindIcon } from './MindIcon';
+export { default as MoneyIcon } from './MoneyIcon';
+export { default as NoteIcon } from './NoteIcon';
+export { default as PlusIcon } from './PlusIcon';
+export { default as RepeatIcon } from './RepeatIcon';
+export { default as SelfGrowthIcon } from './SelfGrowthIcon';
+export { default as SparklesIcon } from './SparklesIcon';
+export { default as SproutIcon } from './SproutIcon';
+export { default as StarIcon } from './StarIcon';
+export { default as SunIcon } from './SunIcon';
+export { default as TrashIcon } from './TrashIcon';
+export { default as TravelIcon } from './TravelIcon';
+export { default as TrophyIcon } from './TrophyIcon';

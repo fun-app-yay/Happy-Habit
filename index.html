@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zenith - Health & Mindfulness</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'cream': '#FDFBF5',
+            'off-white': '#FAF9F6',
+            'sage-green': '#A9B299',
+            'dusty-rose': '#D4A2B4',
+            'pale-gold': '#F3E0A9',
+            'dusty-blue': '#95A1B4',
+            'light-sky-blue': '#F0F4F7',
+          },
+          fontFamily: {
+            sans: ['Poppins', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  <!-- Google API for Calendar -->
+  <script src="https://apis.google.com/js/api.js"></script>
+  <script src="https://accounts.google.com/gsi/client"></script>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "react": "https://aistudiocdn.com/react@^19.1.1",
+        "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+        "react/": "https://aistudiocdn.com/react@^19.1.1/",
+        "@google/genai": "https://aistudiocdn.com/@google/genai@^1.21.0",
+        "@fullcalendar/core": "https://aistudiocdn.com/@fullcalendar/core@^6.1.18",
+        "@fullcalendar/daygrid": "https://aistudiocdn.com/@fullcalendar/daygrid@^6.1.18",
+        "@fullcalendar/react": "https://aistudiocdn.com/@fullcalendar/react@^6.1.18"
+      }
+    }
+  </script>
+</head>
+<body class="bg-cream">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
