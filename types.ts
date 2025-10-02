@@ -1,6 +1,6 @@
 // FIX: Created type definitions to resolve module and type errors across the application.
 
-export type RoutineType = 'Morning' | 'Daily' | 'Night';
+export type RoutineType = 'Morning' | 'Daily' | 'Weekly' | 'Night';
 
 export interface RoutineTask {
   id: string;

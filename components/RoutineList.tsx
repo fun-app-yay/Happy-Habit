@@ -5,7 +5,7 @@ import useLocalStorage from '../hooks/useLocalStorage';
 import { getRoutineSuggestions } from '../services/geminiService';
 import Button from './common/Button';
 import Spinner from './common/Spinner';
-import { PlusIcon, TrashIcon, SparklesIcon, CheckIcon, SunIcon, BookOpenIcon } from './icons';
+import { PlusIcon, TrashIcon, SparklesIcon, CheckIcon, SunIcon, BookOpenIcon, RepeatIcon } from './icons';
 
 interface RoutineListProps {
   routineType: RoutineType;
@@ -57,6 +57,7 @@ const RoutineList: React.FC<RoutineListProps> = ({ routineType }) => {
       switch (routineType) {
           case 'Morning': return <SunIcon className="w-6 h-6 mr-2" />;
           case 'Daily': return <CheckIcon className="w-6 h-6 mr-2" />;
+          case 'Weekly': return <RepeatIcon className="w-6 h-6 mr-2" />;
           case 'Night': return <BookOpenIcon className="w-6 h-6 mr-2" />;
           default: return null;
       }
